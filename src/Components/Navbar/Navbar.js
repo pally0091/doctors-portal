@@ -12,12 +12,12 @@ const Navbar = () => {
                 <Link to='/'><h1 className='text-3xl font-bold px-3'>Doctors Portal</h1></Link>
             </div>
             <div>
-                <Link className='px-2 text-lg font-semibold hover:underline' to='/home'>Home</Link>
-                <Link className='px-2 text-lg font-semibold hover:underline' to='/about'>About</Link>
-                <Link className='px-2 text-lg font-semibold hover:underline' to='/appointment'>Appointment</Link>
-                <Link className='px-2 text-lg font-semibold hover:underline' to='/reviews'>Reviews</Link>
-                <Link className='px-2 text-lg font-semibold hover:underline' to='/contact'>Contact Us</Link>
-                <Link className='px-2 text-lg font-semibold hover:underline' to='/login'>Login</Link>
+                <Link className='px-2 text-lg hover:underline' to='/home'>Home</Link>
+                <Link className='px-2 text-lg hover:underline' to='/about'>About</Link>
+                <Link className='px-2 text-lg hover:underline' to='/appointment'>Appointment</Link>
+                <Link className='px-2 text-lg hover:underline' to='/reviews'>Reviews</Link>
+                <Link className='px-2 text-lg hover:underline' to='/contact'>Contact Us</Link>
+                <Link className='px-2 text-lg hover:underline' to='/login'>Login</Link>
             </div>
         </navbar>
     );
