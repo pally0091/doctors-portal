@@ -7,7 +7,7 @@ const Appointment = () => {
   return (
     <div
       id="box"
-      className="mt-10 w-11/12 mx-auto rounded-md flex items-center justify-evenly"
+      className="mt-10 mx-auto rounded-md flex items-center justify-evenly"
     >
       <div className="w-1/2  ">
         <img
