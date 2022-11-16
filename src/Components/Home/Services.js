@@ -39,7 +39,7 @@ const Services = () => {
             ></Service>
           ))}
         </div>
-        <div className="mt-10 w-11/12 mx-auto flex items-center shadow-md shadow-slate-500">
+        <div className="mt-10 w-11/12 mx-auto flex items-center shadow-md shadow-slate-500 rounded-md">
             <div className="w-1/2 h-96 px-10 ">
               <img className="w-full h-full rounded-md" src={dental} alt=''/>
               </div>
